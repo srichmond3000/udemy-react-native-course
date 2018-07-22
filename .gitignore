@@ -37,7 +37,7 @@ buck-out
 /ReactAndroid/src/main/gen
 
 # Watchman
-.watchmanconfig
+**/.watchmanconfig
 
 # Android
 .idea
