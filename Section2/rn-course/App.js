@@ -30,11 +30,9 @@ export default class App extends React.Component {
       return {
         places: prevState.places.filter((place) => {
           return place.key !== prevState.selectedPlace.key;
-        })
+        }),
+        selectedPlace: null
       };
-    });
-    this.setState({
-      selectedPlace: null
     });
   };
 
